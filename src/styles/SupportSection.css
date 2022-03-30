@@ -1,0 +1,15 @@
+.support__section{
+  
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.support__sectionContainer{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#00A86B;
+    border-radius: 50px;
+}

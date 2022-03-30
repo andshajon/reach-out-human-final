@@ -1,0 +1,22 @@
+.supportCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding-bottom: 40px;
+}
+
+.supportCard__image{
+    height: 325px;
+}
+
+.supportCard__textContainer{
+    text-align: center;
+}
+.supportCard__callToAction{
+    padding-top: 20px;
+}
+.supportCard__subText{
+    margin-top: 20px;
+}
