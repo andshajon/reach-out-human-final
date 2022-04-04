@@ -4,7 +4,7 @@ import './App.css';
 import MissionVision from './components/MissionVision';
 import QuestionsAboutUs from './components/QuestionsAboutUs';
 import ChangesLives from "./components/ChangesLives"
-
+import Footer from './components/Footer';
 import SubscribeForm from './components/SubscribeForm';
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
       <QuestionsAboutUs />
       <ChangesLives />
       <SubscribeForm />
+      <Footer/>
       
       
     </div>

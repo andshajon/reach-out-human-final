@@ -5,6 +5,7 @@ import '../styles/MissionVision.css';
 function MissionVision() {
   return (
     <div className='missionVision'>
+      <h2 className="missionVision__headLine">  Inspiration for our mission and vision   </h2>
       <div className='missionVision__container'>
 
        

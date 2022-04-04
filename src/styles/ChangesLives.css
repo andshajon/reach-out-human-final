@@ -3,14 +3,22 @@
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.ChangesLives__container{
+
+.changesLives__headLine{
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.changesLives__container{
     height: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     width: 1200px;
     margin: 0 auto;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     margin-top: 80px;
     flex-wrap: wrap;
 }

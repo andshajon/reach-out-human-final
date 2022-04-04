@@ -14,7 +14,7 @@ function SubscribeForm() {
 	<p class="subscribe__copy">Subscribe to keep up with fresh news and exciting updates. We promise not to spam you!</p>
 	<div class="form">
 		<input type="email" class="form__email" placeholder="Enter your email address" />
-		<button class="form__button">Send</button>
+		<button class="form__button">Subscribe Now</button>
 	</div>
 	<div class="notice">
 		<input type="checkbox"/>
