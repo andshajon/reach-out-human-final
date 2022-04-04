@@ -1,0 +1,26 @@
+
+
+
+.changeLife{
+    width: 300px;
+    height: fit-content;
+    border-radius: 5px;
+    margin-bottom: 80px;
+}
+.changeLife img{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    
+}
+.changeLife__textContainer{
+    background-color: #F5E3CE;
+    margin-top: -4px;
+    border-radius: 0px 0px 5px 5px ;
+    padding: 40px;
+    
+}
+
+.changeLife__mainText{
+    margin-bottom: 5px;
+}
+

@@ -1,5 +1,6 @@
 .hero{
-   background-color:antiquewhite;
+   background-color:#FFFFFF;
+
 }
     
 
@@ -17,12 +18,13 @@
     margin-top: 100px;
     font-size: 25px;
     font-weight: 100;
-    color:burlywood;
+    color:#850505;
 }
 .hero__mainText{
     font-size: 70px;
     margin-top: 20px;
     margin-bottom: 40px;
+    color: #028489;
 }
 
 

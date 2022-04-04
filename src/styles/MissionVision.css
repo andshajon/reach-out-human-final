@@ -1,0 +1,48 @@
+.missionVision{
+    background-color:#FFFFFF;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.missionVision__container{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.missionVison__details{
+    width: 550px ;
+    height: 550px;
+    background-color: #028489;
+    border-radius: 25px;
+    color: aliceblue;
+    padding: 40px;
+    padding-top: 50px;
+}
+.missionVison__details h3{
+    font-size: 35px;
+}
+.missionVison__details p{
+    font-size: 20px;
+}
+
+.missionVision__vision{
+    margin-top: 70px;
+  
+}
+.missionVison__CallToAction{
+    padding-top: 40px;
+
+}
+
+.missionVison__image{
+    width: 550px ;
+    height: 550px;
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+}
