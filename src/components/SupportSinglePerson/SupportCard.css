@@ -8,6 +8,10 @@
 
 .supportCard__image{
     height: 325px;
+    width: 325px;
+    border-radius: 50%;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .supportCard__textContainer{

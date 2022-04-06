@@ -1,6 +1,7 @@
 import React from 'react'
-import '../styles/QuestionsAboutUs.css';
-import CallToAction from './CallToAction';
+import './QuestionsAboutUs.css';
+import CallToAction from '../Button/CallToAction';
+
 
 function QuestionsAboutUs() {
   return (

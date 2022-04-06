@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/SubscribeForm.css';
+import './SubscribeForm.css';
 
 function SubscribeForm() {
   return (

@@ -1,13 +1,13 @@
 import React from 'react'
-import '../styles/SupportCard.css';
-import YouthImage from "../assets/youth.png";
+import './SupportCard.css';
 
 
 
-function SupportCard({image, text, subText, CallToAction}) {
+
+function SupportCard({ image ,text, subText, CallToAction}) {
   return (
     <div className='supportCard'>
-       <img className="supportCard__image" src={image} />
+       <img src={image} className="supportCard__image"  />
        <div className='supportCard__textContainer'>
            <h2>{text}</h2>
            <p className='supportCard__subText'>{subText}</p>

@@ -1,7 +1,7 @@
 import React from 'react'
-import '../styles/Header.css';
-import logo from "../assets/reach-out-human.png";
-import CallToAction from './CallToAction';
+import './Header.css';
+
+import CallToAction from '../Button/CallToAction';
 import { Link } from 'react-router-dom';
 function Header() {
   return (
@@ -10,7 +10,7 @@ function Header() {
 
      
      
-      <img className='header__logo' src={logo} alt="reach out human"/>
+     <img className='header__logo'  alt="reach out human"/>
      
      
       

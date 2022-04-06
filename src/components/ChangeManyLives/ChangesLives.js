@@ -1,6 +1,6 @@
 import React from 'react'
-import '../styles/ChangesLives.css';
-import ChangeLife from './ChangeLife';
+import './ChangesLives.css';
+import ChangeLife from '../ChangeSingleLife/ChangeLife';
 
 function ChangesLives() {
   return (

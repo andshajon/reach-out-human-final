@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/ChangeLife.css';
+import './ChangeLife.css';
 
 function changeLife( { image, mainText, paraText, width , }) {
 

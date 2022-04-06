@@ -5,14 +5,15 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Header from './components/Header';
-import Hero from './components/Hero';
+import Header from './components/Navigation/Header';
+import Hero from "./components/Home/Hero";
 import './App.css';
-import MissionVision from './components/MissionVision';
-import QuestionsAboutUs from './components/QuestionsAboutUs';
-import ChangesLives from "./components/ChangesLives"
-import Footer from './components/Footer';
-import SubscribeForm from './components/SubscribeForm';
+import MissionVision from './components/Mission/MissionVision';
+import QuestionsAboutUs from "./components/Questions/QuestionsAboutUs";
+import ChangesLives from "./components/ChangeManyLives/ChangesLives"
+import Footer from './components/FooterNavigation/Footer';
+import SubscribeForm from './components/Subscribe/SubscribeForm';
+import SupportSection from "./components/SupportManyPeople/SupportSection";
 
 
 function App() {
@@ -40,7 +41,7 @@ function App() {
          
          </Route>
          <Route path="/volunteer">
-           <SubscribeForm/>
+        
          
          </Route>
           <Route path="/">
@@ -50,11 +51,14 @@ function App() {
             <MissionVision/>
             <QuestionsAboutUs/>
             <ChangesLives/>
-            <SubscribeForm/>
+            
            
          
           </Route>
         </Switch>
+
+
+        <SubscribeForm/>
         <Footer/>
       
     </Router>

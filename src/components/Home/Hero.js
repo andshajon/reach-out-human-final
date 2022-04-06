@@ -1,8 +1,8 @@
 import React from 'react'
-import '../styles/Hero.css';
-import heroImage from "../assets/hero__image.png";
-import CallToAction from './CallToAction';
-import SupportSection from './SupportSection';
+import './Hero.css';
+
+import CallToAction from '../Button/CallToAction';
+import SupportSection from '../SupportManyPeople/SupportSection';
 
 function Hero() {
     
@@ -21,7 +21,13 @@ function Hero() {
           
 
          </div>
-         <img className="hero__rightWithImage" src={heroImage} alt="heroImage"/>
+
+         <div className='hero__right'>
+
+           <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2hhcml0eXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"  className="hero__rightWithImage"/>
+       
+
+          </div>
 
 
          

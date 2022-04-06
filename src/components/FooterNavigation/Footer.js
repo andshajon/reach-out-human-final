@@ -1,6 +1,6 @@
 import React from 'react'
-import '../styles/Footer.css';
-import logo from "../assets/reach-out-human.png";
+import './Footer.css';
+
 
 
 function Footer() {
@@ -14,7 +14,7 @@ function Footer() {
 
     <div className='footer__container'>
   <div className="footer__addr">
-    <img src={logo} className="footer__logo"></img>
+    <img className="footer__logo"></img>
         
     <h2> is a non-profit Organisation
     </h2>
