@@ -57,3 +57,52 @@
     background-size: cover;
     border-radius: 25px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .missionVision {
+     
+      margin: 0px 20px;
+  
+
+
+    }
+    .missionVision__headLine{
+        font-size: 25px;
+
+    }
+
+
+
+
+    .missionVision__container{
+        flex-direction: column;
+        width: 100%;
+        overflow-x: hidden !important;
+        
+        
+    }
+    .missionVison__details{
+        padding: 0px -5px;
+        width: 100%;
+        
+    }
+
+
+
+    .missionVison__details h3{
+        font-size: 25px;
+        margin-left: 15px;
+    }
+    .missionVison__details p{
+        font-size: 16px;
+        margin-left: 15px;
+    }
+    .missionVison__image{
+        margin-top: 30px;
+        padding: 0px -5px;
+        width: 100%;
+    }
+
+
+  }

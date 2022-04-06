@@ -1,5 +1,6 @@
 .hero{
    background-color:#FFFFFF;
+   
 
 }
     
@@ -12,6 +13,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.hero__left{
+    width: 50%;
 }
 
 .hero__topText{
@@ -32,7 +36,43 @@
    
 
 .hero__rightWithImage{
-    width: 100%;
+    width: 60%;
     padding-left: 200px;
     margin-top: 50px;
+   
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .hero {
+     
+      overflow-x: hidden !important;
+      padding: 0px 50px;
+
+
+    }
+
+    .hero__container {
+        
+        flex-direction: column;
+        width: 100%;
+        overflow-x: hidden !important;
+     
+  
+      }
+
+      .hero__left{
+          
+
+      }
+
+
+      .hero__rightWithImage{
+          width:max-content;
+          padding-right: 200px;
+          
+         
+          
+      }
+  }

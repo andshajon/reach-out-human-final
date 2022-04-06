@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/Header.css';
 import logo from "../assets/reach-out-human.png";
 import CallToAction from './CallToAction';
+import { Link } from 'react-router-dom';
 function Header() {
   return (
     <div className='header'>
@@ -11,17 +12,28 @@ function Header() {
      
       <img className='header__logo' src={logo} alt="reach out human"/>
      
-      <div className='header__right'>
-        <ul className='header__menu'>
-          <li> <a src="#">Home</a></li>
-          <li> <a src="#">Event</a></li>
-          <li> <a src="#">About</a></li>
-          <li> <a src="#">Volunteer</a></li>
-          <li> <a src="#">Contact</a></li>
-
-        </ul>
-
-      </div>
+     
+      
+      <div className="header__right">
+       
+          <ul className='header__menu'>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+            <li>
+              <Link to="/event">Event</Link>
+            </li>
+            <li>
+              <Link to="/volunteer">Volunteer</Link>
+            </li>
+          </ul>
+          </div>
       <CallToAction backgroundColor="#850505" color="white" text="Donate"/>
       
       </div>
