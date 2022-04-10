@@ -2,6 +2,7 @@
     background-color: #ffffff;
     margin-top: 80px;
     margin-bottom: 80px;
+    
 }
 
 .changesLives__headLine{
@@ -24,4 +25,37 @@
     flex-wrap: wrap;
 }
 
+
+
+@media only screen and (max-width: 600px) {
+    .changesLives{
+      
+      margin: 40px 20px;
+      overflow-x: hidden !important;
+   
+
+
+    }
+
+    .changesLives__container{
+        flex-direction: column;
+        width: 100%;
+        overflow-x: hidden !important;
+
+
+
+    }
+        
+
+  
+      }
+
+
+
+      
+
+
+  
+  
+  
 

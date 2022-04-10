@@ -13,7 +13,8 @@ import QuestionsAboutUs from "./components/Questions/QuestionsAboutUs";
 import ChangesLives from "./components/ChangeManyLives/ChangesLives"
 import Footer from './components/FooterNavigation/Footer';
 import SubscribeForm from './components/Subscribe/SubscribeForm';
-import SupportSection from "./components/SupportManyPeople/SupportSection";
+
+import TopPageNeed from "./components/TopPage/TopPageNeed";
 
 
 function App() {
@@ -28,11 +29,14 @@ function App() {
        
         <Switch>
           <Route path="/about">
-            <MissionVision/>
+            <TopPageNeed/>
+          
+            
            
             
           </Route>
           <Route path="/Contact">
+          
             <QuestionsAboutUs/>
          
           </Route>

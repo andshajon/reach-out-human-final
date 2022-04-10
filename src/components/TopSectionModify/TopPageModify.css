@@ -1,0 +1,31 @@
+.topPageModify{
+    background-color:aliceblue;
+    height: 100vh;
+}
+
+.topPageModify__container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    
+    
+   
+
+}
+
+.topPageModify__maintext{
+    font-size: 50px;
+    margin-top: -220px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.topPageModify__right img{
+    width: 100%;
+}
+

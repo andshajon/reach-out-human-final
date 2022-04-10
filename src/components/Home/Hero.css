@@ -14,6 +14,8 @@
     justify-content: center;
     align-items: center;
 }
+
+
 .hero__left{
     width: 50%;
 }
@@ -43,43 +45,57 @@
 
    
 
-.hero__rightWithImage{
-    width: 100%;
-    margin-top: 100px;
-   
-}
 
 
 
 @media only screen and (max-width: 600px) {
-    .hero {
-     
+    .hero{
+      
+      margin: 40px 20px;
       overflow-x: hidden !important;
    
 
 
     }
 
-    .hero__container {
-        
+    .hero__container{
         flex-direction: column;
         width: 100%;
         overflow-x: hidden !important;
-     
+
+
+
+    }
+
+    .hero__left{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .hero__mainText{
+        font-size: 70px;
+    }
+
+
+    .hero__right{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .hero__right img{
+        width: 100%;
+    }
+        
+
   
       }
 
-    
-      .hero__mainText{
-          font-size: 60px;
-      }
 
 
-      .hero__rightWithImage{
-          width: 100%;
-         
-          
-         
-          
-      }
-  }
+      
+
+
+  
+  
+  
+

@@ -13,76 +13,77 @@ function Footer() {
 <footer className="footer">
 
     <div className='footer__container'>
-  <div className="footer__addr">
-    <img className="footer__logo"></img>
+    <div className="footer__left">
+    <img className="footer__logo"/>
         
-    <h2> is a non-profit Organisation
-    </h2>
+ 
     
  
   </div>
   
-  <ul className="footer__nav">
-    <li className="nav__item">
-      <h2 className="nav__title">Media</h2>
+  <ul className="footer__navBarRight">
+    <li className="footer__item">
+      <h2 className="footer__title">Useful Menus</h2>
 
-      <ul className="nav__ul">
+      <ul className="footer__ul">
         <li>
-          <a href="#">Online</a>
+          <a href="#">Home</a>
         </li>
 
         <li>
-          <a href="#">Print</a>
+          <a href="#">About</a>
         </li>
             
         <li>
-          <a href="#">Alternative Ads</a>
+          <a href="#">Donation</a>
         </li>
       </ul>
-    </li>
-    
-    <li className="nav__item nav__item--extra">
-      <h2 className="nav__title">Technology</h2>
-      
-      <ul className="nav__ul nav__ul--extra">
-        <li>
-          <a href="#">Hardware Design</a>
-        </li>
-        
-        <li>
-          <a href="#">Software Design</a>
-        </li>
-        
-        <li>
-          <a href="#">Digital Signage</a>
-        </li>
-        
-        <li>
-          <a href="#">Automation</a>
-        </li>
-        
+
      
-      
+    </li>
+
+    <li className="footer__item">
+      <h2 className="footer__title">Terms & Conditions</h2>
+
+      <ul className="footer__ul">
+        <li>
+          <a href="#">Privacy</a>
+        </li>
+
+        <li>
+          <a href="#">Policy</a>
+        </li>
+            
+        <li>
+          <a href="#">Usage</a>
+        </li>
       </ul>
+
+     
     </li>
     
-    <li className="nav__item">
-      <h2 className="nav__title">Legal</h2>
-      
-      <ul className="nav__ul">
+    <li className="footer__item">
+      <h2 className="footer__title">Social Media</h2>
+
+      <ul className="footer__ul">
         <li>
-          <a href="#">Privacy Policy</a>
+          <a href="#">Facebook</a>
         </li>
-        
+
         <li>
-          <a href="#">Terms of Use</a>
+          <a href="#">Instagram</a>
         </li>
-        
+            
         <li>
-          <a href="#">Sitemap</a>
+          <a href="#">Twitter</a>
         </li>
       </ul>
+
+     
     </li>
+    
+    
+    
   </ul>
   
  

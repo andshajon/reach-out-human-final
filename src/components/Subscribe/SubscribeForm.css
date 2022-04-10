@@ -1,3 +1,8 @@
+
+
+
+
+
 .subscribeForm__container{
 
   width: 1200px;
@@ -143,3 +148,37 @@ input[type="checkbox" i] {
 :-moz-placeholder { /* Firefox 18- */
   color: pink;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+  .subscribeForm{
+    
+    margin: 0px 5px;
+    overflow-x: hidden !important;
+ 
+
+
+  }
+
+  .subscribeForm__container{
+      
+      flex-direction: column;
+      width: 100%;
+      overflow-x: hidden !important;
+   
+
+    }
+
+
+
+    
+
+
+
+
+}
+
+
+
+
