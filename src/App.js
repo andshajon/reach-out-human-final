@@ -13,8 +13,8 @@ import QuestionsAboutUs from "./components/Questions/QuestionsAboutUs";
 import ChangesLives from "./components/ChangeManyLives/ChangesLives"
 import Footer from './components/FooterNavigation/Footer';
 import SubscribeForm from './components/Subscribe/SubscribeForm';
-
 import TopPageNeed from "./components/TopPage/TopPageNeed";
+import WhatPeopleSay from "./components/WhatPeopleSay/WhatPeopleSay";
 
 
 function App() {
@@ -49,12 +49,15 @@ function App() {
          
          </Route>
           <Route path="/">
-            <Hero/>
+            <Hero />
 
             
-            <MissionVision/>
-            <QuestionsAboutUs/>
-            <ChangesLives/>
+            <MissionVision />
+            <QuestionsAboutUs />
+            <ChangesLives />
+            <WhatPeopleSay />
+            
+
             
            
          

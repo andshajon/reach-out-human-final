@@ -49,11 +49,19 @@
 
 .header__menu li{
     list-style-type: none;
-    
+     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+   
 }
+
+
 .header__menu li a{
 padding-right: 50px;
 font-size: 20px;
+text-decoration: none;
+
 }
 a:hover{
     color: #581845;

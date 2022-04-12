@@ -1,22 +1,30 @@
-.support__section{
-  
+.whatPeopleSay{
+ 
+   padding: 0px 0px;
    
-
-  padding: 50px 0px 0px 0px;
+  
+    
    
     
 }
 
-.support__sectionContainer{
+.whatPeopleSay__headLine{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  color:#301934;
+  padding-bottom: 80px;
+}
+
+.whatPeopleSay__sectionContainer{
     width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #F5E3CE;
-    border-radius: 100px;
-    padding: 50px 0px;
-    
+    background-color:#ECE7E4;
+    border-radius: 25px;
 }
 
 
@@ -24,9 +32,9 @@
 
 
   @media only screen and (max-width: 600px) {
-    .support__section{
+    .whatPeopleSay{
       
- 
+      margin: 0px 20px;
 
      
       overflow-x: hidden !important;
@@ -35,9 +43,10 @@
 
     }
 
-    .support__sectionContainer{
+    .whatPeopleSay__sectionContainer{
         
         flex-direction: column;
+       
         width: 100%;
         overflow-x: hidden !important;
      

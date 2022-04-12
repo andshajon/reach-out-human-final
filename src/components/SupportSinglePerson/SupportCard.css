@@ -3,15 +3,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 40px;
+  
 }
 
 .supportCard__image{
-    height: 325px;
-    width: 325px;
-    border-radius: 50%;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    height:300px;
+    width: 300px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+   
 }
 
 .supportCard__textContainer{
@@ -24,3 +24,12 @@
     margin-top: 20px;
 }
 
+
+
+@media only screen and (max-width: 600px) {
+    .supportCard{
+        padding-bottom: 50px;
+
+
+    }
+}
