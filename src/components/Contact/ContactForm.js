@@ -14,35 +14,35 @@ function ContactForm() {
     <div className="col">
       <div className="form-group">
         <label>First Name</label>
-        <input type="text"  placeholder='First Name'/>
+        <input type="text"  placeholder=' Write First Name Here'/>
       </div>
     </div>
 
     <div className="col">
       <div className="form-group">
         <label>Last Name</label>
-        <input type="text" placeholder='Last Name'/>
+        <input type="text" placeholder=' Write Last Name Here'/>
       </div>
     </div>
 
     <div className="col">
       <div className="form-group">
         <label>Email</label>
-        <input type="text" placeholder='Email'/>
+        <input type="text" placeholder=' Write Email Address Here'/>
       </div>
     </div>
 
     <div className="col">
       <div className="form-group">
         <label>Phone</label>
-        <input type="text" placeholder='Phone'/>
+        <input type="text" placeholder=' Write Phone Number Here'/>
       </div>
     </div>
 
     <div className="col">
       <div className="form-group">
         <label>Message</label>
-        <textarea placeholder='Write Here '></textarea>
+        <textarea placeholder='Write  Your Message Here '></textarea>
       </div>
     </div>
 

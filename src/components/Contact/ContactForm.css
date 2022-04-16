@@ -25,9 +25,9 @@
   }
   
   .card h2 {
-    color: #301934;
+    color: honeydew;
     font-size: 60px;
-    text-transform: uppercase;
+    
   }
   
   .card .row {
@@ -36,7 +36,7 @@
     display: grid;
     grid: auto / auto auto;
     grid-template-columns: repeat(auto-fit,minmax(100%, 1fr));
-    grid-gap: 30px;
+    grid-gap: 10px;
   }
   
   .card .row .col {
@@ -84,8 +84,8 @@
   
   .card .row .form-group label {
     line-height: 40px;
-    color: #301934;
-    font-size: 24px;
+    color: honeydew;
+    font-size: 26px;
     margin: 0 0 0 30px;
     display: block;
     pointer-events: none;
@@ -97,9 +97,25 @@
   
   .card .row .form-group input:focus,
   .card .row .form-group textarea:focus {
-    border: 5px solid blanchedalmond;
+    border: 5px solid #301934;
     transition: all 0.5s;
+    
   }
+
+  .card .row .form-group input:hover,
+  .card .row .form-group textarea:hover{
+
+    border: 5px solid #301934;
+    transition: all 0.5s;
+  } 
+
+
+  ::placeholder {
+    color:#301934;
+    font-size: 14px;
+    
+  }
+  
   
   .card .row input[type="submit"] {
     border: 5px solid rgba(0, 0, 0, 0.3);
@@ -121,7 +137,7 @@
   }
   
   .card .row input[type="submit"]:hover {
-    border: 5px solid rgba(255, 255, 255, 1);
+    border: 5px solid #301934;;
     color: #ffffff;
     transition: all 0.4s;
     
