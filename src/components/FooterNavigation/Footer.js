@@ -2,6 +2,7 @@ import React from 'react'
 import './Footer.css';
 import CallToAction from '../Button/CallToAction';
 
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -27,16 +28,19 @@ function Footer() {
       <h2 className="footer__title">Useful Menus</h2>
 
       <ul className="footer__ul">
+       
         <li>
-          <a href="#">Home</a>
+              <Link to="/">Home</Link>
         </li>
+      
 
+      
         <li>
-          <a href="#">About</a>
+              <Link to="/about">About</Link>
         </li>
-            
+       
         <li>
-          <a href="#">Donation</a>
+        <Link to="/donation">Donation</Link>
         </li>
       </ul>
 

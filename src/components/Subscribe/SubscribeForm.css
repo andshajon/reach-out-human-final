@@ -1,6 +1,8 @@
 
 
-
+.subscribeForm{
+background-color: #fff;
+}
 
 
 .subscribeForm__container{
@@ -14,6 +16,7 @@
   
   background-repeat: no-repeat;
   background-size: cover;
+  
   
   height: 100vh;
   margin-bottom: 80px;
@@ -165,6 +168,7 @@ input[type="checkbox" i] {
     
   
     overflow-x: hidden !important;
+    margin-top: 70px;
  
 
 
@@ -176,6 +180,7 @@ input[type="checkbox" i] {
       width: 100%;
       overflow-x: hidden !important;
       margin-bottom: 0px;
+      margin-top: 0px; 
    
 
     }
