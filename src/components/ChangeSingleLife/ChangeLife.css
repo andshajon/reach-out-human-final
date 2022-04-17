@@ -10,7 +10,7 @@
 }
 .changeLife img{
     width: 100%;
-    border-radius: 0px 5px 0px 5px
+    border-radius: 5px 5px 0px 0px;
     
 }
 .changeLife__textContainer{
@@ -26,5 +26,63 @@
     color:#301934;
 }
 
+
+.changeLife__likeDislike{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 50px;
+    color:antiquewhite;
+    font-size: 18px;
+    
+
+   
+   
+}
+
+
+
+
+
+
+
+.changeLife__like{
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 20px;
+    background-color: #301934;
+    border-radius: 10px;
+    
+  
+   
+   
+ 
+    
+}
+
+
+.changeLife__dislike{
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 20px;
+    background-color: #301934;
+    border-radius: 10px;
+    
+
+}
+
+
+
+.changeLife__addLike{
+    color: #301934;
+ padding-right: 20px;
+
+
+
+
+
+    
+    
+}
 
 

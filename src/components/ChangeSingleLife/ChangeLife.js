@@ -1,7 +1,31 @@
 import React from 'react'
 import './ChangeLife.css';
+import  { useState } from 'react';
 
-function changeLife( { image, mainText, paraText, width , }) {
+function ChangeLife( { image, mainText, paraText, width , like , dislike}){
+
+  const [addLike, setAddLike] = useState(0);
+  const [addDislike, setAddDislike] = useState(0);
+
+  function onClickLike(){
+    setAddLike( addLike + 1);
+  }
+
+  function onClickDislike(){
+    setAddDislike( addDislike + 1);
+  }
+
+
+
+
+
+
+
+ 
+
+    
+
+
 
   
 
@@ -15,6 +39,25 @@ function changeLife( { image, mainText, paraText, width , }) {
          <div className='changeLife__textContainer'>
             <h3 className='changeLife__mainText'>{mainText}</h3>
             <p className='changeLife__subText'>{paraText}</p>
+            <div className='changeLife__likeDislike'>
+              
+              <div className='changeLife__divLike'>
+
+                <span className='changeLife__like' onClick={onClickLike}>{like } </span> 
+
+                 <span className='changeLife__addLike'>{addLike}</span>
+
+              </div>
+
+              <div className='changeLife__divDislike'>
+              
+              
+               <span className='changeLife__dislike' onClick={onClickDislike}>{dislike}  </span> 
+               <span className='changeLife__addLike'>{addDislike}</span>
+
+               </div>
+
+            </div>
 
 
          </div>
@@ -26,4 +69,4 @@ function changeLife( { image, mainText, paraText, width , }) {
   )
 }
 
-export default changeLife
+export default ChangeLife
