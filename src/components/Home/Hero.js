@@ -15,7 +15,7 @@ function Hero() {
 
          <div className='hero__left'>
           <h3 className='hero__topText'>A non-profit organisation</h3>
-          <h1 className='hero__mainText'>Lend a hand for less fortunate.</h1>
+          <h1 className='hero__mainText'>Lend a hand to the less fortunate.</h1>
           <CallToAction backgroundColor="#850505"  color="white" marginRight ="20px" text="Donate Now"/>
           <CallToAction backgroundColor="transparent"  color="black"  text="What we do"/>
           
