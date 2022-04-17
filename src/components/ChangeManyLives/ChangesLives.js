@@ -2,6 +2,7 @@ import React from 'react'
 import './ChangesLives.css';
 import ChangeLife from '../ChangeSingleLife/ChangeLife';
 
+
 function ChangesLives() {
   return (
     <div className='changesLives'>

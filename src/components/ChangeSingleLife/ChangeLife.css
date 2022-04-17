@@ -32,13 +32,35 @@
     justify-content: space-between;
     
     margin-top: 50px;
-    color:antiquewhite;
+   
     font-size: 18px;
     
 
    
    
 }
+
+.changeLife__divLike{
+    border: 2px solid #301934;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color:#301934;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    
+}
+
+
+.love{
+   
+    margin-top: 5px;
+  
+
+}
+
+
 
 
 
@@ -48,11 +70,11 @@
 
 .changeLife__like{
     cursor: pointer;
-    padding: 5px 10px;
-    margin-right: 20px;
-    background-color: #301934;
-    border-radius: 10px;
-    
+    font-weight: 800;
+     margin-right: 10px;
+     margin-left: 10px;
+     
+   
   
    
    
@@ -61,12 +83,28 @@
 }
 
 
+
+.changeLife__divDislike{
+
+    border: 2px solid #301934;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color:#301934;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+   
+}
+
+
 .changeLife__dislike{
     cursor: pointer;
     padding: 5px 10px;
-    margin-right: 20px;
-    background-color: #301934;
-    border-radius: 10px;
+    margin-right: 10px;
+    font-weight: 800;
+    margin-left: 5px;
+    color: i;   
     
 
 }
@@ -74,8 +112,9 @@
 
 
 .changeLife__addLike{
-    color: #301934;
- padding-right: 20px;
+    color: black;
+    padding-right: 20px;
+    font-weight: 100;
 
 
 
@@ -85,4 +124,8 @@
     
 }
 
+
+.hate{
+    margin-top: 5px;
+}
 
