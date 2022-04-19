@@ -23,8 +23,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:#ECE7E4;
-    border-radius: 25px;
+    background-color:#E0D8C9;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 

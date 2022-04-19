@@ -30,7 +30,7 @@
 
 .callToAction:hover {
   text-decoration: none;
-  box-shadow: 0 10px 20px #581845;
+  box-shadow: 0 10px 20px black;
 }
 
 .callToAction:active {
