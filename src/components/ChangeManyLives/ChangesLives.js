@@ -7,6 +7,7 @@ function ChangesLives() {
   return (
     <div className='changesLives'>
         <h2 className="changesLives__headLine">  Discover how you are changing someone's life </h2>
+        <p className='changesLives__subHeadLine'>There is a happy moment for disadvantaged people. We want everyone <br/>to have the financial and mental resources and support</p>
 
 
       <div className='changesLives__container'>

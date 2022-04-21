@@ -6,15 +6,17 @@ function MissionVision() {
   return (
     <div className='missionVision'>
       <h2 className="missionVision__headLine">  Inspiration for our mission and vision   </h2>
+      <p className='missionVision__subHeadLine'> Unite our community to create a world where <br/> unprivileged can have an access.</p>
       <div className='missionVision__container'>
 
        
 
         <div className='missionVison__details'>
-             <h3>Our Mission</h3>
-             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even sligh</p>
-             <h3 className='missionVision__vision'>Our Vision</h3>
-             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even sligh</p>
+             <h3>Small teams, big mission</h3>
+             <p>
+             Reach out human is built around the idea that the unprivileged should be able to access the facilities, including what they eat, where they stay, why they learn and what they do. We empower the less fortunate locally to use their spaces, passions, and talents to become independent and rely on themselves.</p>
+             <h3 className='missionVision__vision'>Big vision  , small steps</h3>
+             <p>Challenges are ahead coming—new people, areas, opportunities, technologies, and businesses. We’ll meet these challenges creatively and patiently with the support of our local and global communities.   </p>
              
 
 

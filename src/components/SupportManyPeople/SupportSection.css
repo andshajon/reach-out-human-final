@@ -12,10 +12,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #F5E3CE;
+    background-color:#222326;
+    
+
     border-radius: 25px;
     padding: 80px 0px;
-    background-image: url(https://adsmatters.com/wp-content/uploads/2022/01/cac6005d2fd78d99daf3197d3b73a641-300x83.jpg);
+   
     background-repeat: no-repeat;
     background-size:contain;
     background-position: bottom right;
