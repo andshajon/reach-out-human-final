@@ -6,11 +6,36 @@ import CallToAction from '../Button/CallToAction';
 
 
 function SupportSection() {
+
+  
+  let text1 = "Let's help \n unprivileged children";
+  let newText1 = text1.split('\n').map(i => {
+    return <h2>{i}</h2>
+});
+
+let text2 = "Bring back a \n hope for venerable";
+  let newText2 = text2.split('\n').map(i => {
+    return <h2>{i}</h2>
+});
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
   return (
     <div className='support__section'>
         <div className='support__sectionContainer'>
-          <SupportCard image = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKZmG5Ak8uDzvaPTzc7b4DdOf7UxAGWv66Cw&usqp=CAU" title = "image one"  text="Let's help unprivileged children out" CallToAction={<CallToAction backgroundColor="transparent"  color="black"  text="Donate"/>}/>
-          <SupportCard image = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_rhogc4toB6W_ZLn1POTlQImStVbTr-Zm7w&usqp=CAU"  title = "image two" text="Bring back a hope for venerable" CallToAction={<CallToAction backgroundColor="transparent" color="Black" text="Donate"/>}/>
+          <SupportCard image = "https://png.pngtree.com/png-clipart/20210823/ourmid/pngtree-illustration-of-muslim-children-going-back-to-school-png-image_3812391.jpg" title = "image one"  text= {newText1} CallToAction={<CallToAction backgroundColor="transparent"  color="black"  text="Donate"/>}/>
+          <SupportCard image = "https://png.pngtree.com/png-clipart/20210402/ourlarge/pngtree-ramadan-background-muslim-man-give-iftar-donation-to-poor-old-png-image_3193368.jpg"  title = "image two" text={newText2} CallToAction={<CallToAction backgroundColor="transparent" color="Black" text="Donate"/>}/>
         
 
         </div>

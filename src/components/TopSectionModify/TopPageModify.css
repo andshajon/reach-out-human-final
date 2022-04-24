@@ -1,15 +1,20 @@
 .topPageModify{
-    background-color:aliceblue;
+    background-color: bisque;
     height: 100vh;
 }
 
 .topPageModify__container{
     height: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 1200px;
     margin: 0 auto;
+   
+   
+   
+    
     
     
    
@@ -18,14 +23,24 @@
 
 .topPageModify__maintext{
     font-size: 50px;
-    margin-top: -220px;
+    margin-top: 70px;
+    padding-left: 60px;
+   
+    color: #222326;
+    
     margin-bottom: 30px;
 }
+.topPageModify__subtext{
 
-
-
-
-.topPageModify__right img{
-    width: 100%;
+    font-size: 30px;
+    padding-top: 10px;
+    color: black;
+    font-weight: 100;
+    padding-right: 80px;
+    padding-left: 60px;
 }
+
+
+
+
 

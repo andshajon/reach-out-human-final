@@ -3,27 +3,33 @@ import './TopPageModify.css';
 
 
 
-function TopPageModify({mainText , subText , image} ) {
+function TopPageModify({mainText , subText , } ) {
   return (
     <div className='topPageModify'>
 
       <div className='topPageModify__container'>
 
-        <div className='topPageModify__left'>
+       
 
-          <h2 className='topPageModify__maintext'>{mainText}</h2>
-          <p>{subText}</p>
+          <div className='topPageModify__containerLeft'>
+
+                <h2 className='topPageModify__maintext'>{mainText}</h2>
+                <p  className='topPageModify__subtext'>{subText}</p>
+                  
+                  
+            
+            </div>
+
+            <div className='topPageModify__containerRight'>
 
 
 
-        </div>
-        <div className='topPageModify__right'>
-
-           <img src={image} />
+            </div>
 
 
 
-        </div>
+       
+        
 
           
 
