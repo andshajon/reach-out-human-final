@@ -4,6 +4,25 @@ import CallToAction from '../Button/CallToAction';
 
 
 function QuestionsAboutUs() {
+
+  let buttonStyle1 = {
+    marginRight: 20,
+    backgroundColor:"#850505" ,
+    color:"white",
+  }
+
+  let buttonStyle2 = {
+    
+    backgroundColor: "transparent",
+    color: "black"
+  }
+
+
+
+
+
+
+
   return (
     <div className='questionsAboutUs'>
 
@@ -13,8 +32,8 @@ function QuestionsAboutUs() {
             <div>
 
                 <h3>Question about <br/> our work</h3>
-                <CallToAction backgroundColor="#850505"  color="white" marginRight ="20px" text="Contact Us"/>
-                <CallToAction backgroundColor="transparent"  color="black"  text="Read More"/>
+                <CallToAction style={buttonStyle1} text="Contact Us"/>
+                <CallToAction style={buttonStyle2} text="Read More"/>
             
 
 

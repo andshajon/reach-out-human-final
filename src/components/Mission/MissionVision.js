@@ -22,11 +22,16 @@ function MissionVision() {
 
 
          </div>
+         <div className='background'>
+
          <div className='missionVison__image'>
 
 
 
+             </div>
+
          </div>
+        
 
 
 

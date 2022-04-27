@@ -4,6 +4,16 @@ import './Header.css';
 import CallToAction from '../Button/CallToAction';
 import { Link } from 'react-router-dom';
 function Header() {
+
+    let buttonStyle1 = {
+    
+      backgroundColor:"#850505", 
+      color:"white"
+  }
+
+
+
+
   return (
     <div className='header'>
      <div className='header__container'>
@@ -34,9 +44,9 @@ function Header() {
             </li>
          
 
-          <li>
+          <li className="header__donate">
 
-          <Link to="/donate"> <CallToAction backgroundColor="#850505" color="white" text="Donate"/></Link>
+          <Link to="/donate" > <CallToAction    style = {buttonStyle1} text="Donate"/></Link>
           
             </li>
           </ul>

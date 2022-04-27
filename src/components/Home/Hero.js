@@ -3,8 +3,23 @@ import './Hero.css';
 
 import CallToAction from '../Button/CallToAction';
 import SupportSection from '../SupportManyPeople/SupportSection';
+import { red } from '@mui/material/colors';
+import { toBePartiallyChecked } from '@testing-library/jest-dom/dist/matchers';
 
 function Hero() {
+
+  let buttonStyle1 = {
+    marginRight: 20,
+    backgroundColor:"#850505" ,
+    color:"white",
+  }
+
+  let buttonStyle2 = {
+    
+    backgroundColor: "transparent",
+    color:"black"
+  }
+    
     
 
   
@@ -16,8 +31,8 @@ function Hero() {
          <div className='hero__left'>
           <h3 className='hero__topText'>A non-profit organisation</h3>
           <h1 className='hero__mainText'>Lend a hand for the less fortunate.</h1>
-          <CallToAction backgroundColor="#850505"  color="white" marginRight ="20px" text="Donate Now"/>
-          <CallToAction backgroundColor="transparent"  color="black"  text="What we do"/>
+          <CallToAction style = {buttonStyle1} text="Donate Now"/>
+          <CallToAction  style = {buttonStyle2}   text="What we do"/>
           
 
          </div>

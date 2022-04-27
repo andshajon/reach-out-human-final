@@ -70,9 +70,10 @@
 .missionVison__image{
     width: 550px ;
     height: 550px;
+
     background-image: url(https://png.pngtree.com/png-vector/20220206/ourmid/pngtree-happy-muslim-people-celebrate-eid-mubarak-by-shaking-hands-in-the-png-image_4380961.png);
     background-position: center;
-    background-color: #028489;
+
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 25px;
